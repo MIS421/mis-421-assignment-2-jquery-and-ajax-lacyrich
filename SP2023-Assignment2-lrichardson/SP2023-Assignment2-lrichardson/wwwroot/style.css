@@ -1,0 +1,19 @@
+body {
+    background-image: url("day.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+h1{
+    font-size: 100pt;
+    text-align: center;
+}
+
+#searchResults, #time {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
