@@ -1,8 +1,7 @@
 var len;
 var results = '';
-const searchButton = document.getElementById('#searchButton');
-const siteBackground = document.getElementById('#siteName');
-const timeButton = document.getElementById('#timeButton');
+
+//const timeButton = document.getElementById('#timeButton');
 
 function apiSearch() {
   var params = {
@@ -13,7 +12,7 @@ function apiSearch() {
   };
 
   $.ajax({
-      url: 'https://api.bing.microsoft.com/' + $.param(params),
+      url: 'https://api.bing.microsoft.com/v7.0/search?' + $.param(params),
       beforeSend: function (xhrObj) {
           xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "1d86a4de538b4df0bcb3f18620b14169");
       },
@@ -34,23 +33,58 @@ function apiSearch() {
     });
 }
 
+function apiLucky() {
+    var params = {
+        "q": $("#query").val(),
+        "count": "1",
+        "offset": "0",
+        "mkt": "en-us"
+    };
 
-searchButton.addEventListener('click', function () {
+    $.ajax({
+        url: 'https://api.bing.microsoft.com/v7.0/search?' + $.param(params),
+        beforeSend: function (xhrObj) {
+            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "1d86a4de538b4df0bcb3f18620b14169");
+        },
+
+        type: "GET",
+    })
+        .done(function (data) {
+            if (data.webPages.value.length > 0) {
+                window.location = data.webPages.value[0].url;
+            } else {
+                alert("No results found");
+            }
+        })
+        .fail(function () {
+            alert("error");
+        });
+}
+
+document.getElementById("feelingLuckyButton").addEventListener("click", function () {
+    apiLucky();
+});
+
+document.getElementById("searchButton").addEventListener("click", function () {
     apiSearch();
 });
 
 
-siteBackground.addEventListener('click', function () {
+let backgroundImageIndex = 0;
+const backgroundImages = ['url("day.jpg")','url("afternoon.jpg")', 'url("evening.jpg")'];
+
+document.getElementById("siteName").addEventListener("click", function () {
     changeBackgroundImage();
 });
 
 function changeBackgroundImage() {
-    document.body.style.backgroundImage = 'url("evening.jpg")';
+    backgroundImageIndex = (backgroundImageIndex + 1) % backgroundImages.length;
+    document.body.style.backgroundImage = backgroundImages[backgroundImageIndex];
+    document.body.style.color = 'white';
 }
 
-
-timeButton.on('click', function () {
-    showTime();
+document.getElementById("timeButton").addEventListener("click", function () {
+   showTime();
 });
 
 function showTime() {
@@ -64,12 +98,10 @@ function showTime() {
     $('#timeButton').dialog({
         title: 'Current Time',
         modal: true,
-        buttons: {
-            OK: function () {
-                $(this).dialog('close');
-            }
-        }
+        
+       
     });
+
 }
 
 function formatTime(hours, minutes) {
@@ -86,3 +118,4 @@ function formatTime(hours, minutes) {
 
     return `${formatHours}:${formatMinutes}`;
 }
+

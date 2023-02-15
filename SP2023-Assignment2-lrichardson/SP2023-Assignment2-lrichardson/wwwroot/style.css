@@ -1,19 +1,43 @@
 body {
     background-image: url("day.jpg");
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: repeat-y;
     background-size: cover;
+    text-align: center;
 }
 
 h1{
     font-size: 100pt;
-    text-align: center;
 }
 
-#searchResults, #time {
-    display: none;
-}
 
 .hidden{
     display: none;
+}
+
+#main-header{
+    border-color:antiquewhite;
+}
+
+.animate-text {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #FDB813 0%, #E85A4F 48%, #E98008 100%);
+    background-size: auto auto;
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
 }
