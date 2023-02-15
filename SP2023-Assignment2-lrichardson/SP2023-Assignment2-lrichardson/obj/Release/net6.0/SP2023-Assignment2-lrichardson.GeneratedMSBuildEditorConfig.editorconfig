@@ -9,11 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SP2023_Assignment2_lrichardson
 build_property.RootNamespace = SP2023_Assignment2_lrichardson
-build_property.ProjectDir = C:\Users\lacyr\Source\Repos\mis-421-assignment-2-jquery-and-ajax-lacyrich\SP2023-Assignment2-lrichardson\SP2023-Assignment2-lrichardson\
+build_property.ProjectDir = C:\Users\lacyr\source\repos\mis-421-assignment-2-jquery-and-ajax-lacyrich\SP2023-Assignment2-lrichardson\SP2023-Assignment2-lrichardson\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lacyr\Source\Repos\mis-421-assignment-2-jquery-and-ajax-lacyrich\SP2023-Assignment2-lrichardson\SP2023-Assignment2-lrichardson
+build_property.MSBuildProjectDirectory = C:\Users\lacyr\source\repos\mis-421-assignment-2-jquery-and-ajax-lacyrich\SP2023-Assignment2-lrichardson\SP2023-Assignment2-lrichardson
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/lacyr/source/repos/mis-421-assignment-2-jquery-and-ajax-lacyrich/SP2023-Assignment2-lrichardson/SP2023-Assignment2-lrichardson/Areas/Identity/Pages/_ViewStart.cshtml]
