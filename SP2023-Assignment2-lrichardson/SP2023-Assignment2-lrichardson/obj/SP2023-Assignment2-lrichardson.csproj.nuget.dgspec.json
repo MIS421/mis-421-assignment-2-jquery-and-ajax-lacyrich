@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj": {}
+    "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj": {
+    "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
+        "projectUniqueName": "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
         "projectName": "SP2023-Assignment2-lrichardson",
-        "projectPath": "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
+        "projectPath": "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
         "packagesPath": "C:\\Users\\lacyr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\obj\\",
+        "outputPath": "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

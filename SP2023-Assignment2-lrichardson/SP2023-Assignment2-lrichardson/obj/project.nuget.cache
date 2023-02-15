@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z0QLH/Alg03z8prE7z9DGF5bCNkfPoA68TiFo0Cv9PljTHlvgNF7dZs5CzU/MBYe6+AR9c18ToGVonZzXJ9kUA==",
+  "dgSpecHash": "O1E7ppJahXpn1egGogGEeObhv5BAcTo0Z8NDbvEhiTxEr/HEAYNhrUTOF1QcoMl9iisGaFpLHVgtUGUDfpDmGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lacyr\\source\\repos\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
+  "projectFilePath": "C:\\Users\\lacyr\\Source\\Repos\\mis-421-assignment-2-jquery-and-ajax-lacyrich\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson\\SP2023-Assignment2-lrichardson.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lacyr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lacyr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.11\\microsoft.aspnetcore.cryptography.internal.6.0.11.nupkg.sha512",
