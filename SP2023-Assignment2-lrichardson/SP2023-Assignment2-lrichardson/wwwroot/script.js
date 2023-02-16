@@ -93,13 +93,9 @@ function showTime() {
     const minutes = currentTime.getMinutes();
     const formattedTime = formatTime(hours, minutes);
 
-    $('#timeButton').text(formattedTime);
-
-    $('#timeButton').dialog({
-        title: 'Current Time',
-        modal: true,
-        
-       
+    $('#time').text(formattedTime);
+    $('#time').dialog({
+        title: 'Current Time'
     });
 
 }
